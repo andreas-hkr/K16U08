@@ -5,6 +5,7 @@ public class Main {
         //  - getter + setter (validera input)
         // - 2 konstruktorer (slump + sätt värde)
 
-
+        Dice d = new Dice(5);
+        System.out.println(d.getValue());
     }
 }
